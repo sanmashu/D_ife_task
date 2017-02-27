@@ -54,9 +54,9 @@
 			<p>下面是一个表格，给表格加了一个border=“1”好让你看出是一个表格</p>
 			<table border="1">
 				<tr>
-					<td>表头</td>
-					<td>表头</td>
-					<td>表头</td>
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
 				</tr>
 				<tr>
 					<td>表内容单元格</td>
@@ -75,10 +75,31 @@
 				</tr>
 				<tr>
 					<td>总计</td>
-					<td>1000</td>
+					<td colspan="2">1000</td>
 				</tr>
 			</table>
 	</div>
+	<div>
+		<h2>这里以后是个侧栏，这是侧栏标题</h2>
+		<h2>侧栏注册窗口标题</h2>
+		<form>
+			<p>请输入邮箱地址:<input type="text" value="这是一个文本框" ></input></p>
+			<p>邮箱地址请按要求格式输入</p>
+			<p>请输入密码:<input type="text" value="这是一个文本框" ></input>请重复输入密码：<input type="text" value="这是一个文本框" ></input></p>
+			<p>密码为6-16位英文数字</p>
+			<p>
+				性别<input type="radio" name="sex" value="男">男</input><input type="radio" name="sex" value="女">女</input>
+				城市：
+				<select>
+					<option>北京</option>
+					<option>天津</option>
+				</select>
+				爱好：<input type="checkbox" name="aihao">运动</input><input type="checkbox" name="aihao">艺术</input><input type="checkbox" name="aihao">科学</input>
+				个人描述：<textarea>这是一个多行输入框，输入您的个人描述</textarea>
+				<input type="submit" value="确认提交"></input>
+			</p>
+		</form>
+		<p>版权所有C</p>
+	</div>
 </body>
 </html>
-<title></title>

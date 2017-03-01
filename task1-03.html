@@ -12,14 +12,11 @@
 			margin: 20px;
 			background-color: #eee;
 			border:1px solid #999;
-			position: relative;
 			overflow: hidden;
 		}
 
 		.name{
-			position: absolute;
-			left: 20px;
-			top: 20px;
+			margin: 20px;
 			float: left;	
 			width: 200px;
 			background-color: #fff;
@@ -34,28 +31,35 @@
 
 		.logo{
 			float: right;
-			width: 120px;
-			margin: 20px;
+			width: 80px;
 			background-color: #fff;
 			border:1px solid #999;
-			margin: 20px;
+			margin:20px 20px 0px 0px;
+			padding: 20px;
 		}
 
 		.tlogo{
 			width: 80px;
 			height: 80px;
-			display: inline-block;
 			border:1px solid #999;
 			margin: 20px;
+			float: left;
+		}
+
+		.tlogo p{
+			float:left;
 		}
 
 		.plogo{
 			width: 80px;
 			height: 80px;
-			display: inline-block;
-			margin-bottom: 20px;
+			float: left;
 			border:1px solid #999;
-			margin: 20px;
+			margin-bottom: 20px;
+		}
+
+		.plogo:last-child{
+			margin-bottom: 0px;
 		}
 	</style>
 </head>
@@ -68,10 +72,8 @@
 			<div class="plogo"></div>
 		</div>
 		<div class="name">
-			<div class="tlogo">
-			
-			</div>
-			<span>团队名称</span>
+			<div class="tlogo"></div>
+			<p>团队名称</p>
 		</div>
 		<div class="introduction">
 			<p>

@@ -19,6 +19,50 @@
 	</header>
 	
 	<main>
+			<aside>
+			<h2>这里以后是个侧栏，这是侧栏标题</h2>
+			<form action="/" method="post">
+				<div>
+					<label class="tips">请输入邮箱地址</label>
+					<input type="email"  name="email" value="这是一个文本框" ></input>
+					<p>邮箱地址请按要求格式输入</p>
+				</div>
+				<div>
+					<label class="tips">请输入密码</label>
+					<input type="password" name="password" value="" ></input>
+				</div>
+				<div>
+					<label class="tips">请重复输入密码</label>
+					<input type="password" name="password" value="" ></input>
+					<p>密码为6-16位英文数字</p>
+				</div>
+				<section>
+					<label class="tips">性别</label>
+					<input type="radio" name="sex" value="男" checked="checked">男</input>
+					<input type="radio" name="sex" value="女">女</input>
+				</section>
+				<section>
+					<label class="tips">城市</label>
+					<select>
+						<option value="beijing" selected="selected">北京</option>
+						<option value="shanghai">上海</option>
+						<option value="guangdong">广东</option>
+						<option value="shenzhen">深圳 </option>
+					</select>
+				</section>
+				<section>
+					<label class="tips">爱好</label>
+					<input type="checkbox" name="aihao">运动</input>
+					<input type="checkbox" name="aihao">艺术</input>
+					<input type="checkbox" name="aihao">科学</input>
+				</section>
+				<section>
+					<label class="tips">个人描述</label>
+					<textarea>这是一个多行输入框，输入您的个人描述</textarea>
+				</section>
+				<input type="submit" value="确认提交" id="submit"></input>
+			</form>
+		</aside>
 		<article>
 			<h2 class="title1">文章一级标题</h2>
 			<h2 class="title2">文章二级标题</h2>
@@ -48,6 +92,11 @@
 		<article>
 			<h2 class="title1">图片</h2>
 			<ul id="list2">
+				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
+				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
+				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
+				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
+				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
 				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
 				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
 				<li>好看的图片<br /><img src="image/task1-01-01.jpg" ></li>
@@ -92,54 +141,11 @@
 					</tr>
 				</table>
 		</article>
-		<aside>
-			<h2>这里以后是个侧栏，这是侧栏标题</h2>
-			<form action="/" method="post">
-				<div>
-					<label class="tips">请输入邮箱地址</label>
-					<input type="email"  name="email" value="这是一个文本框" ></input>
-					<p>邮箱地址请按要求格式输入</p>
-				</div>
-				<div>
-					<label class="tips">请输入密码</label>
-					<input type="password" name="password" value="" ></input>
-				</div>
-				<div>
-					<label class="tips">请重复输入密码</label>
-					<input type="password" name="password" value="" ></input>
-					<p>密码为6-16位英文数字</p>
-				</div>
-				<section>
-					<label class="tips">性别</label>
-					<input type="radio" name="sex" value="男">男</input>
-					<input type="radio" name="sex" value="女">女</input>
-				</section>
-				<section>
-					<label class="tips">城市</label>
-					<select>
-						<option value="beijing" selected="selected">北京</option>
-						<option value="shanghai">上海</option>
-						<option value="guangdong">广东</option>
-						<option value="shenzhen">深圳 </option>
-					</select>
-				</section>
-				<section>
-					<label class="tips">爱好</label>
-					<input type="checkbox" name="aihao">运动</input>
-					<input type="checkbox" name="aihao">艺术</input>
-					<input type="checkbox" name="aihao">科学</input>
-				</section>
-				<section>
-					<label class="tips">个人描述</label>
-					<textarea rows="10" cols="80">这是一个多行输入框，输入您的个人描述</textarea>
-				</section>
-				<input type="submit" value="确认提交" id="submit"></input>
-			</form>
-		</aside>
+
 	</main>
 
 	<footer>
-		<p>版权所有ⓒsanmashu</p>
+		<span>版权所有ⓒ</span>
 	</footer>
 	
 </body>
